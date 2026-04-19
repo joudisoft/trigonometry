@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Trigonometry Review Sheet</title>
+</head>
+
+<body>
+  <main class="page" id="top">
+    <header class="header">
+      <h1>Trigonometry Review Sheet</h1>
+      <p class="subtitle">
+        A clear and printable summary of the most important trigonometry rules,
+        identities, formulas, and triangle methods.
+      </p>
+    </header>
+
+    <nav class="section toc full" aria-label="Table of contents">
+      <h2><span class="sec-num">#</span> Contents</h2>
+      <div class="topics">
+        <h3 class="content-section-title">Topics</h3>
+        <ol class="toc-list">
+          <li><a href="#angles">Types of Angles</a></li>
+          <li><a href="#triangles">Types of Triangles</a></li>
+          <li><a href="#identities">Trigonometric Identities</a></li>
+          <li><a href="#pythagorean">Pythagorean Identities</a></li>
+          <li><a href="#right-triangle">Right Triangle Trigonometry</a></li>
+          <li><a href="#even-odd">Even Odd Identities</a></li>
+          <li><a href="#cofunction">Co-function Identities</a></li>
+          <li><a href="#functions">Trig Functions</a></li>
+          <li><a href="#table">Trig Table</a></li>
+          <li><a href="#reference-angle">Reference Angle</a></li>
+          <li><a href="#equations">Solve Trigonometric Equations</a></li>
+          <li><a href="#law-of-sines">Law of Sines</a></li>
+          <li><a href="#law-of-cosines">Law of Cosines</a></li>
+          <li><a href="#oblique-area">Area of an Oblique Triangle</a></li>
+          <li><a href="#heron">Heron’s Formula</a></li>
+          <li><a href="#solve-triangle">Solve for Unknown Values</a></li>
+        </ol>
+      </div>
+      <div class="examples">
+        <h3 class="content-section-title">Examples</h3>
+        <ol class="toc-list">
+          <li><a href="#determine6Value">Determine six value examples</a></li>
+          <li><a href="#find6Value">Find six value examples</a></li>
+          <li><a href="#solveEquations">Solve Equations examples</a></li>
+          <li><a href="#angleWordProblems">Word problems examples</a></li>
+          <li><a href="#givenABC">Given ΔABC examples</a></li>
+        </ol>
+      </div>
+    </nav>
+
+    <div class="grid">
+      <section class="section" id="angles">
+        <h2><span class="sec-num">1</span> Types of Angles</h2>
+        <div class="content">
+          <div class="text-note-content">
+            <ul>
+              <li><strong>Acute:</strong> 0° &lt; θ &lt; 90°</li>
+              <li><strong>Right:</strong> θ = 90°</li>
+              <li><strong>Obtuse:</strong> 90° &lt; θ &lt; 180°</li>
+              <li><strong>Straight:</strong> θ = 180°</li>
+              <li><strong>Reflex:</strong> 180° &lt; θ &lt; 360°</li>
+              <li><strong>Full:</strong> θ = 360°</li>
+            </ul>
+
+            <div class="notes">
+              <strong>Important note:</strong>
+              Always compare the angle measure with 90°, 180°, and 360° to identify its type quickly.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="triangles">
+        <h2><span class="sec-num">2</span> Types of Triangles</h2>
+        <div class="content">
+          <div class="text-note-content">
+            <p><strong>By sides:</strong></p>
+            <ul>
+              <li><strong>Equilateral:</strong> all sides equal, all angles 60°</li>
+              <li><strong>Isosceles:</strong> two sides equal</li>
+              <li><strong>Scalene:</strong> all sides different</li>
+            </ul>
+
+            <p><strong>By angles:</strong></p>
+            <ul>
+              <li><strong>Acute triangle:</strong> all angles acute</li>
+              <li><strong>Right triangle:</strong> one 90° angle</li>
+              <li><strong>Obtuse triangle:</strong> one obtuse angle</li>
+            </ul>
+
+            <div class="notes">
+              <strong>Important note:</strong>
+              A triangle can be named by its sides and by its angles at the same time.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section full" id="identities">
+        <h2><span class="sec-num">3</span> Trigonometric Identities</h2>
+        <div class="content single">
+          <div class="text-note-content">
+            <div class="formula">tan θ = sin θ / cos θ</div>
+            <div class="formula">cot θ = cos θ / sin θ</div>
+            <div class="formula">sec θ = 1 / cos θ</div>
+            <div class="formula">csc θ = 1 / sin θ</div>
+            <div class="notes">
+              <strong>Important note:</strong>
+              These are the basic identity tools. Many trig problems become easier when you change everything to sin and
+              cos first.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="pythagorean">
+        <h2><span class="sec-num">4</span> Pythagorean Identities</h2>
+        <div class="content">
+          <div class="text-note-content">
+            <div class="formula">sin² θ + cos² θ = 1</div>
+            <div class="formula">1 + tan² θ = sec² θ</div>
+            <div class="formula">1 + cot² θ = csc² θ</div>
+            <div class="notes">
+              <strong>Important note:</strong>
+              The first identity is the main one. The other two come from dividing by cos² θ or sin² θ.
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="section" id="right-triangle">
+        <h2><span class="sec-num">5</span> Right Triangle Trigonometry</h2>
+        <div class="content">
+          <div class="text-note-content">
+            <div class="formula">sin θ = opposite / hypotenuse</div>
+            <div class="formula">cos θ = adjacent / hypotenuse</div>
+            <div class="formula">tan θ = opposite / adjacent</div>
+            <div class="formula">SOH-CAH-TOA</div>
+            <div class="notes">
+              <strong>Important note:</strong>
+              First choose the angle θ, then decide which sides are opposite, adjacent, and hypotenuse.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="even-odd">
+        <h2><span class="sec-num">6</span> Even–Odd Identities</h2>
+        <div class="content single">
+          <div class="text-note-content">
+            <div class="formula">sin(-θ) = -sin θ</div>
+            <div class="formula">cos(-θ) = cos θ</div>
+            <div class="formula">tan(-θ) = -tan θ</div>
+            <div class="formula">sec(-θ) = sec θ</div>
+            <div class="formula">csc(-θ) = -csc θ</div>
+            <div class="formula">cot(-θ) = -cot θ</div>
+            <div class="notes">
+              <strong>Important note:</strong>
+              Cos and sec are even. Sin, tan, csc, and cot are odd.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="cofunction">
+        <h2><span class="sec-num">7</span> Co-function Identities</h2>
+        <div class="content single">
+          <div class="text-note-content">
+            <div class="formula">sin(90° − θ) = cos θ</div>
+            <div class="formula">cos(90° − θ) = sin θ</div>
+            <div class="formula">tan(90° − θ) = cot θ</div>
+            <div class="formula">cot(90° − θ) = tan θ</div>
+            <div class="formula">sec(90° − θ) = csc θ</div>
+            <div class="formula">csc(90° − θ) = sec θ</div>
+            <div class="notes">
+              <strong>Important note:</strong>
+              These work because the two acute angles in a right triangle are complementary.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section full" id="functions">
+        <h2><span class="sec-num">8</span> Trig Functions</h2>
+        <div class="content full-2col">
+          <div class="text-note-content">
+            <ul class="two-col-list">
+              <li>sin θ</li>
+              <li>cos θ</li>
+              <li>tan θ</li>
+              <li>csc θ</li>
+              <li>sec θ</li>
+              <li>cot θ</li>
+            </ul>
+            <div class="notes">
+              <strong>Important note:</strong>
+              Sin, cos, and tan are the main three. Csc, sec, and cot are their reciprocals.
+            </div>
+          </div>
+          <div class="tir-img">
+            <img src="trigFunction.png" alt="Trig function" width="500" height="500">
+          </div>
+        </div>
+      </section>
+
+      <section class="section full" id="table">
+        <h2><span class="sec-num">9</span> Trig Table</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Angle</th>
+              <th>Radians</th>
+              <th>sin</th>
+              <th>cos</th>
+              <th>tan</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>0°</td>
+              <td>0</td>
+              <td>0</td>
+              <td>1</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <td>30°</td>
+              <td>π/6</td>
+              <td>1/2</td>
+              <td>√3/2</td>
+              <td>√3/3</td>
+            </tr>
+            <tr>
+              <td>45°</td>
+              <td>π/4</td>
+              <td>√2/2</td>
+              <td>√2/2</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>60°</td>
+              <td>π/3</td>
+              <td>√3/2</td>
+              <td>1/2</td>
+              <td>√3</td>
+            </tr>
+            <tr>
+              <td>90°</td>
+              <td>π/2</td>
+              <td>1</td>
+              <td>0</td>
+              <td>undefined</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="notes">
+          <strong>Important note:</strong>
+          Memorize 30°, 45°, and 60°. Most exact trig questions are based on these angles.
+        </div>
+      </section>
+
+      <section class="section" id="reference-angle">
+        <h2><span class="sec-num">10</span> Reference Angle</h2>
+        <div class="content">
+          <div class="text-note-content">
+            <p>
+              A reference angle is the positive acute angle between the terminal side of an angle and the x-axis.
+            </p>
+            <ul>
+              <li>Quadrant I: θ</li>
+              <li>Quadrant II: 180° − θ</li>
+              <li>Quadrant III: θ − 180°</li>
+              <li>Quadrant IV: 360° − θ</li>
+            </ul>
+            <div class="notes">
+              <strong>Important note:</strong>
+              First find the quadrant, then use the correct formula for the reference angle.
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="section" id="equations">
+        <h2><span class="sec-num">11</span> Solve Trigonometric Equations</h2>
+        <div class="content single">
+          <div class="text-note-content">
+            <ol>
+              <li>Isolate the trig function.</li>
+              <li>Find the basic angle.</li>
+              <li>Use quadrants or the unit circle.</li>
+              <li>Write all solutions in the interval asked for.</li>
+            </ol>
+            <div class="formula">sin x = 1/2 → x = 30°, 150° on 0° ≤ x &lt; 360°</div>
+            <div class="formula">cos x = -√2/2 → x = 135°, 225°</div>
+            <div class="formula">tan x = tan α → x = α + 180°k</div>
+            <div class="notes">
+              <strong>Important note:</strong>
+              Always check the interval. Some questions want one cycle only, others want general solutions.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="law-of-sines">
+        <h2><span class="sec-num">12</span> Law of Sines</h2>
+        <div class="content">
+          <div class="text-note-content">
+            <div class="formula">a / sin A = b / sin B = c / sin C</div>
+            <p>Use it when:</p>
+            <ul>
+              <li>you know 2 angles and 1 side</li>
+              <li>you know 2 sides and a non-included angle</li>
+            </ul>
+            <div class="notes">
+              <strong>Important note:</strong>
+              The side and its opposite angle must stay in the same fraction.
+            </div>
+          </div>
+
+
+        </div>
+      </section>
+
+      <section class="section" id="law-of-cosines">
+        <h2><span class="sec-num">13</span> Law of Cosines</h2>
+        <div class="content">
+          <div class="text-note-content">
+            <div class="formula">c² = a² + b² − 2ab cos C</div>
+            <div class="formula">a² = b² + c² − 2bc cos A</div>
+            <div class="formula">b² = a² + c² − 2ac cos B</div>
+            <p>Use it when:</p>
+            <ul>
+              <li>you know 3 sides</li>
+              <li>you know 2 sides and the included angle</li>
+            </ul>
+            <div class="notes">
+              <strong>Important note:</strong>
+              This is the oblique-triangle version of the Pythagorean theorem.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="oblique-area">
+        <h2><span class="sec-num">14</span> Area of an Oblique Triangle</h2>
+        <div class="content single">
+          <div class="text-note-content">
+            <div class="formula">Area = 1/2 ab sin C</div>
+            <div class="formula">Area = 1/2 bc sin A</div>
+            <div class="formula">Area = 1/2 ac sin B</div>
+            <div class="notes">
+              <strong>Important note:</strong>
+              Use the two sides that meet at the included angle in the formula.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="heron">
+        <h2><span class="sec-num">15</span> Heron’s Formula</h2>
+        <div class="content single">
+          <div class="text-note-content">
+            <div class="formula">s = (a + b + c) / 2</div>
+            <div class="formula">Area = √[s(s − a)(s − b)(s − c)]</div>
+            <div class="notes">
+              <strong>Important note:</strong>
+              Use Heron’s formula when you know all three sides and no angle.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section full" id="solve-triangle">
+        <h2><span class="sec-num">16</span> Given ΔABC with sides a, b, and c: solve for the unknown values</h2>
+        <div class="content">
+          <div class="text-note-content">
+            <ul>
+              <li>Side <strong>a</strong> is opposite angle <strong>A</strong></li>
+              <li>Side <strong>b</strong> is opposite angle <strong>B</strong></li>
+              <li>Side <strong>c</strong> is opposite angle <strong>C</strong></li>
+              <li><strong>A + B + C = 180°</strong></li>
+            </ul>
+
+            <p><strong>How to choose the method:</strong></p>
+            <ul>
+              <li><strong>3 sides:</strong> use Law of Cosines to find angles</li>
+              <li><strong>2 sides + included angle:</strong> use Law of Cosines</li>
+              <li><strong>2 angles + 1 side:</strong> use Law of Sines</li>
+              <li><strong>2 sides + non-included angle:</strong> usually use Law of Sines</li>
+            </ul>
+
+            <div class="formula">
+              Example: if a = 5, b = 7, C = 60°<br />
+              c² = 5² + 7² − 2(5)(7)cos60° = 39<br />
+              c = √39
+            </div>
+
+            <div class="notes">
+              <strong>Important note:</strong>
+              Before solving, write what is known, what is unknown, and which formula matches that information.
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </div>
+
+    <a href="#top" class="back-top">↑</a>
+
+    <section class="section full" id="hard-examples">
+      <h2><span class="sec-num">17</span> Hard Examples by Question Style</h2>
+      <div class="content single">
+        <div class="text-note-content">
+
+          <div id="determine6Value" class="examples-box">
+            <h3>1. Determine the value of the six trigonometric functions for ∠θ in the triangle</h3>
+            <div class="example-item">
+              <p><strong>Example 1:</strong> In a right triangle, relative to angle θ, the opposite side is 9 and the
+                hypotenuse is 15. Find all six trigonometric functions of θ.</p>
+
+              <div class="example-draw">
+                <svg viewBox="0 0 260 180" xmlns="http://www.w3.org/2000/svg">
+                  <polygon points="40,140 40,68 184,140" fill="none" stroke="black" stroke-width="2" />
+                  <rect x="40" y="128" width="12" height="12" fill="none" stroke="black" />
+                  <text x="150" y="138">θ</text>
+                  <text x="22" y="108">9</text>
+                  <text x="98" y="156">adj ?</text>
+                  <text x="112" y="95">15</text>
+                  <text x="8" y="18">opp = 9</text>
+                  <text x="8" y="34">hyp = 15</text>
+                </svg>
+              </div>
+
+              <div class="formula">adjacent = √(15² − 9²) = √144 = 12</div>
+              <div class="formula">sin θ = 9/15 = 3/5</div>
+              <div class="formula">cos θ = 12/15 = 4/5</div>
+              <div class="formula">tan θ = 9/12 = 3/4</div>
+              <div class="formula">csc θ = 5/3, sec θ = 5/4, cot θ = 4/3</div>
+            </div>
+
+            <div class="example-item">
+              <p><strong>Example 2:</strong> In a right triangle, relative to angle θ, the adjacent side is 7 and the
+                hypotenuse is 25. Find all six trigonometric functions of θ.</p>
+
+              <div class="example-draw">
+                <svg viewBox="0 0 260 180" xmlns="http://www.w3.org/2000/svg">
+                  <polygon points="36,140 36,52 220,140" fill="none" stroke="black" stroke-width="2" />
+                  <rect x="36" y="128" width="12" height="12" fill="none" stroke="black" />
+                  <text x="183" y="138">θ</text>
+                  <text x="102" y="156">7</text>
+                  <text x="118" y="88">25</text>
+                  <text x="2" y="96">opp ?</text>
+                  <text x="8" y="18">adj = 7</text>
+                  <text x="8" y="34">hyp = 25</text>
+                </svg>
+              </div>
+
+              <div class="formula">opposite = √(25² − 7²) = √576 = 24</div>
+              <div class="formula">sin θ = 24/25</div>
+              <div class="formula">cos θ = 7/25</div>
+              <div class="formula">tan θ = 24/7</div>
+              <div class="formula">csc θ = 25/24, sec θ = 25/7, cot θ = 7/24</div>
+            </div>
+
+            <div class="example-item">
+              <p><strong>Example 3:</strong> In a right triangle, relative to angle θ, the opposite side is 12 and the
+                adjacent side is 5. Find all six trigonometric functions of θ.</p>
+
+              <div class="example-draw">
+                <svg viewBox="0 0 260 180" xmlns="http://www.w3.org/2000/svg">
+                  <polygon points="40,140 40,44 140,140" fill="none" stroke="black" stroke-width="2" />
+                  <rect x="40" y="128" width="12" height="12" fill="none" stroke="black" />
+                  <text x="120" y="138">θ</text>
+                  <text x="18" y="95">12</text>
+                  <text x="85" y="156">5</text>
+                  <text x="82" y="80">hyp ?</text>
+                  <text x="8" y="18">opp = 12</text>
+                  <text x="8" y="34">adj = 5</text>
+                </svg>
+              </div>
+
+              <div class="formula">hypotenuse = √(12² + 5²) = √169 = 13</div>
+              <div class="formula">sin θ = 12/13</div>
+              <div class="formula">cos θ = 5/13</div>
+              <div class="formula">tan θ = 12/5</div>
+              <div class="formula">csc θ = 13/12, sec θ = 13/5, cot θ = 5/12</div>
+            </div>
+
+            <p class="ref-link">
+              Reference:
+              <a href="https://openstax.org/books/precalculus-2e/pages/5-4-right-triangle-trigonometry" target="_blank">
+                OpenStax – Right Triangle Trigonometry
+              </a>
+            </p>
+          </div>
+
+          <div id="find6Value" class="examples-box">
+            <h3>2. Find the values of the six trigonometric functions of θ with the given constraint</h3>
+
+            <div class="example-item">
+              <p><strong>Example 1:</strong> Given sin θ = 4/5 and θ is in Quadrant II, find the six trigonometric
+                functions of θ.</p>
+
+              <div class="example-draw">
+                <svg viewBox="0 0 240 190" xmlns="http://www.w3.org/2000/svg">
+                  <line x1="120" y1="20" x2="120" y2="170" stroke="black" stroke-width="2" />
+                  <line x1="25" y1="95" x2="215" y2="95" stroke="black" stroke-width="2" />
+                  <line x1="120" y1="95" x2="65" y2="50" stroke="black" stroke-width="2" />
+                  <line x1="65" y1="50" x2="65" y2="95" stroke="black" stroke-dasharray="4 4" />
+                  <text x="95" y="92">θ</text>
+                  <text x="40" y="38">QII</text>
+                  <text x="80" y="60">r = 5</text>
+                  <text x="30" y="76">y = 4</text>
+                  <text x="74" y="110">x = -3</text>
+                </svg>
+              </div>
+
+              <div class="formula">sin θ = 4/5 → opposite = 4, hypotenuse = 5</div>
+              <div class="formula">adjacent = √(5² − 4²) = 3</div>
+              <div class="formula">In Quadrant II, cosine and tangent are negative</div>
+              <div class="formula">sin θ = 4/5, cos θ = -3/5, tan θ = -4/3</div>
+              <div class="formula">csc θ = 5/4, sec θ = -5/3, cot θ = -3/4</div>
+            </div>
+
+            <div class="example-item">
+              <p><strong>Example 2:</strong> Given cos θ = -3/8 and θ is in Quadrant III, find the six trigonometric
+                functions of θ.</p>
+
+              <div class="example-draw">
+                <svg viewBox="0 0 240 190" xmlns="http://www.w3.org/2000/svg">
+                  <line x1="120" y1="20" x2="120" y2="170" stroke="black" stroke-width="2" />
+                  <line x1="25" y1="95" x2="215" y2="95" stroke="black" stroke-width="2" />
+                  <line x1="120" y1="95" x2="70" y2="135" stroke="black" stroke-width="2" />
+                  <line x1="70" y1="135" x2="70" y2="95" stroke="black" stroke-dasharray="4 4" />
+                  <text x="95" y="108">θ</text>
+                  <text x="42" y="150">QIII</text>
+                  <text x="85" y="135">r = 8</text>
+                  <text x="15" y="118">y = -√55</text>
+                  <text x="76" y="88">x = -3</text>
+                </svg>
+              </div>
+
+              <div class="formula">cos θ = adjacent/hypotenuse = -3/8</div>
+              <div class="formula">opposite = √(8² − 3²) = √55</div>
+              <div class="formula">In Quadrant III, sine and cosine are negative, tangent is positive</div>
+              <div class="formula">sin θ = -√55/8</div>
+              <div class="formula">cos θ = -3/8</div>
+              <div class="formula">tan θ = √55/3</div>
+              <div class="formula">csc θ = -8/√55, sec θ = -8/3, cot θ = 3/√55</div>
+            </div>
+
+            <div class="example-item">
+              <p><strong>Example 3:</strong> Given tan θ = -5/12 and θ is in Quadrant IV, find the six trigonometric
+                functions of θ.</p>
+
+              <div class="example-draw">
+                <svg viewBox="0 0 240 190" xmlns="http://www.w3.org/2000/svg">
+                  <line x1="120" y1="20" x2="120" y2="170" stroke="black" stroke-width="2" />
+                  <line x1="25" y1="95" x2="215" y2="95" stroke="black" stroke-width="2" />
+                  <line x1="120" y1="95" x2="180" y2="120" stroke="black" stroke-width="2" />
+                  <line x1="180" y1="120" x2="180" y2="95" stroke="black" stroke-dasharray="4 4" />
+                  <text x="145" y="105">θ</text>
+                  <text x="183" y="150">QIV</text>
+                  <text x="146" y="125">13</text>
+                  <text x="186" y="110">-5</text>
+                  <text x="142" y="88">12</text>
+                </svg>
+              </div>
+
+              <div class="formula">tan θ = opposite/adjacent = -5/12</div>
+              <div class="formula">Use a 5-12-13 triangle</div>
+              <div class="formula">In Quadrant IV, sine is negative and cosine is positive</div>
+              <div class="formula">sin θ = -5/13</div>
+              <div class="formula">cos θ = 12/13</div>
+              <div class="formula">tan θ = -5/12</div>
+              <div class="formula">csc θ = -13/5, sec θ = 13/12, cot θ = -12/5</div>
+            </div>
+
+            <p class="ref-link">
+              Reference:
+              <a href="https://openstax.org/books/precalculus-2e/pages/5-4-right-triangle-trigonometry" target="_blank">
+                OpenStax – Trigonometric Ratios and Constraints
+              </a>
+            </p>
+          </div>
+
+          <div id="solveEquations" class="examples-box">
+            <h3>3. Solve Trigonometric Equations</h3>
+
+            <div class="example-item">
+              <p><strong>Example 1:</strong> Solve on 0° ≤ x &lt; 360°: 2sin²x - 3sin x + 1 = 0</p>
+
+              <div class="formula">Let y = sin x</div>
+              <div class="formula">2y² - 3y + 1 = 0</div>
+              <div class="formula">(2y - 1)(y - 1) = 0</div>
+              <div class="formula">sin x = 1/2 or sin x = 1</div>
+              <div class="formula">x = 30°, 150°, 90°</div>
+            </div>
+
+            <div class="example-item">
+              <p><strong>Example 2:</strong> Solve on 0° ≤ x &lt; 360°: 2cos²x + cos x - 1 = 0</p>
+
+              <div class="formula">Let y = cos x</div>
+              <div class="formula">2y² + y - 1 = 0</div>
+              <div class="formula">(2y - 1)(y + 1) = 0</div>
+              <div class="formula">cos x = 1/2 or cos x = -1</div>
+              <div class="formula">x = 60°, 300°, 180°</div>
+            </div>
+
+            <div class="example-item">
+              <p><strong>Example 3:</strong> Solve on 0° ≤ x &lt; 360°: tan(2x) = √3</p>
+
+              <div class="formula">tan θ = √3 at θ = 60° + 180°k</div>
+              <div class="formula">2x = 60° + 180°k</div>
+              <div class="formula">x = 30° + 90°k</div>
+              <div class="formula">On 0° ≤ x &lt; 360°:</div>
+              <div class="formula">x = 30°, 120°, 210°, 300°</div>
+            </div>
+
+            <p class="ref-link">
+              Reference:
+              <a href="https://openstax.org/books/precalculus-2e/pages/7-5-solving-trigonometric-equations"
+                target="_blank">
+                OpenStax – Solving Trigonometric Equations
+              </a>
+            </p>
+          </div>
+
+          <div id="angleWordProblems" class="examples-box">
+            <h3>4. Angle of elevation word problems</h3>
+            <div class="example-item">
+              <p><strong>Example 1:</strong> An observer looks at the top of a tower at an angle of elevation of 28°.
+                After moving 45 m closer, the angle becomes 41°. Find the height of the tower and the final distance
+                from the tower.</p>
+
+              <div class="example-draw">
+                <svg viewBox="0 0 330 180" xmlns="http://www.w3.org/2000/svg">
+                  <line x1="20" y1="145" x2="310" y2="145" stroke="black" stroke-width="2" />
+                  <line x1="270" y1="145" x2="270" y2="35" stroke="black" stroke-width="3" />
+                  <line x1="80" y1="145" x2="270" y2="35" stroke="black" stroke-width="2" />
+                  <line x1="160" y1="145" x2="270" y2="35" stroke="black" stroke-width="2" />
+                  <text x="105" y="140">28°</text>
+                  <text x="178" y="140">41°</text>
+                  <text x="276" y="90">h</text>
+                  <text x="220" y="160">x</text>
+                  <text x="106" y="160">45 m</text>
+                </svg>
+              </div>
+
+              <div class="formula">Let x = final distance, h = height</div>
+              <div class="formula">tan 41° = h/x</div>
+              <div class="formula">tan 28° = h/(x + 45)</div>
+              <div class="formula">x tan 41° = (x + 45)tan 28°</div>
+              <div class="formula">x ≈ 40.81 m</div>
+              <div class="formula">h ≈ 35.48 m</div>
+            </div>
+
+            <div class="example-item">
+              <p><strong>Example 2:</strong> A person sees the top of a building at 35°. After walking 60 m closer, the
+                angle becomes 52°. Find the height of the building and the new distance from the building.</p>
+
+              <div class="example-draw">
+                <svg viewBox="0 0 330 180" xmlns="http://www.w3.org/2000/svg">
+                  <line x1="20" y1="145" x2="310" y2="145" stroke="black" stroke-width="2" />
+                  <line x1="275" y1="145" x2="275" y2="20" stroke="black" stroke-width="3" />
+                  <line x1="60" y1="145" x2="275" y2="20" stroke="black" stroke-width="2" />
+                  <line x1="150" y1="145" x2="275" y2="20" stroke="black" stroke-width="2" />
+                  <text x="85" y="141">35°</text>
+                  <text x="168" y="141">52°</text>
+                  <text x="282" y="85">h</text>
+                  <text x="220" y="160">x</text>
+                  <text x="95" y="160">60 m</text>
+                </svg>
+              </div>
+
+              <div class="formula">Let x = final distance, h = height</div>
+              <div class="formula">tan 52° = h/x</div>
+              <div class="formula">tan 35° = h/(x + 60)</div>
+              <div class="formula">x tan 52° = (x + 60)tan 35°</div>
+              <div class="formula">x ≈ 77.53 m</div>
+              <div class="formula">h ≈ 99.23 m</div>
+            </div>
+
+            <div class="example-item">
+              <p><strong>Example 3:</strong> An observer measures the angle of elevation to the top of a cliff as 18°.
+                After moving 80 m closer, the angle becomes 33°. Find the height of the cliff and the final distance.
+              </p>
+
+              <div class="example-draw">
+                <svg viewBox="0 0 330 180" xmlns="http://www.w3.org/2000/svg">
+                  <line x1="20" y1="145" x2="310" y2="145" stroke="black" stroke-width="2" />
+                  <line x1="280" y1="145" x2="280" y2="25" stroke="black" stroke-width="3" />
+                  <line x1="40" y1="145" x2="280" y2="25" stroke="black" stroke-width="2" />
+                  <line x1="135" y1="145" x2="280" y2="25" stroke="black" stroke-width="2" />
+                  <text x="70" y="141">18°</text>
+                  <text x="155" y="141">33°</text>
+                  <text x="286" y="88">h</text>
+                  <text x="200" y="160">x</text>
+                  <text x="85" y="160">80 m</text>
+                </svg>
+              </div>
+
+              <div class="formula">Let x = final distance, h = height</div>
+              <div class="formula">tan 33° = h/x</div>
+              <div class="formula">tan 18° = h/(x + 80)</div>
+              <div class="formula">x tan 33° = (x + 80)tan 18°</div>
+              <div class="formula">x ≈ 79.27 m</div>
+              <div class="formula">h ≈ 51.47 m</div>
+            </div>
+
+            <p class="ref-link">
+              Reference:
+              <a href="https://openstax.org/books/precalculus-2e/pages/5-4-right-triangle-trigonometry" target="_blank">
+                OpenStax – Applications of Right Triangle Trigonometry
+              </a>
+            </p>
+          </div>
+
+          <div id="givenABC" class="examples-box">
+            <h3>5. Given ΔABC with sides a, b, and c, solve for the unknown values</h3>
+            <div class="example-item">
+              <p><strong>Example 1:</strong> Given a = 8, b = 11, and C = 47°, solve triangle ABC.</p>
+
+              <div class="example-draw">
+                <svg viewBox="0 0 260 180" xmlns="http://www.w3.org/2000/svg">
+                  <polygon points="40,140 100,50 210,140" fill="none" stroke="black" stroke-width="2" />
+                  <text x="96" y="42">A</text>
+                  <text x="28" y="152">B</text>
+                  <text x="212" y="152">C</text>
+                  <text x="58" y="88">c ?</text>
+                  <text x="150" y="85">b = 11</text>
+                  <text x="112" y="156">a = 8</text>
+                  <text x="170" y="133">47°</text>
+                </svg>
+              </div>
+
+              <div class="formula">Use Law of Cosines: c² = a² + b² − 2ab cos C</div>
+              <div class="formula">c² = 8² + 11² − 2(8)(11)cos 47°</div>
+              <div class="formula">c ≈ 8.10</div>
+              <div class="formula">Use Law of Sines: sin A / 8 = sin 47° / 8.10</div>
+              <div class="formula">A ≈ 46.15°</div>
+              <div class="formula">B = 180° − 47° − 46.15° ≈ 86.85°</div>
+            </div>
+
+            <div class="example-item">
+              <p><strong>Example 2:</strong> Given a = 13, b = 17, and c = 21, solve triangle ABC.</p>
+
+              <div class="example-draw">
+                <svg viewBox="0 0 260 180" xmlns="http://www.w3.org/2000/svg">
+                  <polygon points="35,140 92,58 220,140" fill="none" stroke="black" stroke-width="2" />
+                  <text x="88" y="50">A</text>
+                  <text x="22" y="152">B</text>
+                  <text x="222" y="152">C</text>
+                  <text x="30" y="90">c = 21</text>
+                  <text x="153" y="92">b = 17</text>
+                  <text x="118" y="156">a = 13</text>
+                </svg>
+              </div>
+
+              <div class="formula">Use Law of Cosines for A:</div>
+              <div class="formula">cos A = (b² + c² − a²) / 2bc</div>
+              <div class="formula">A ≈ 37.43°</div>
+              <div class="formula">Use Law of Cosines for B:</div>
+              <div class="formula">B ≈ 53.19°</div>
+              <div class="formula">C = 180° − 37.43° − 53.19° ≈ 89.38°</div>
+            </div>
+
+            <div class="example-item">
+              <p><strong>Example 3:</strong> Given A = 38°, a = 14, and b = 19, solve triangle ABC.</p>
+
+              <div class="example-draw">
+                <svg viewBox="0 0 260 180" xmlns="http://www.w3.org/2000/svg">
+                  <polygon points="35,140 95,50 210,140" fill="none" stroke="black" stroke-width="2" />
+                  <text x="92" y="42">A = 38°</text>
+                  <text x="23" y="152">B</text>
+                  <text x="212" y="152">C</text>
+                  <text x="45" y="90">c ?</text>
+                  <text x="155" y="92">b = 19</text>
+                  <text x="112" y="156">a = 14</text>
+                  <text x="146" y="24">SSA case</text>
+                </svg>
+              </div>
+
+              <div class="formula">Use Law of Sines: sin B / 19 = sin 38° / 14</div>
+              <div class="formula">sin B ≈ 0.8358</div>
+              <div class="formula">B ≈ 56.73° or 123.27°</div>
+              <div class="formula">Case 1: C = 180° − 38° − 56.73° = 85.27°</div>
+              <div class="formula">Case 2: C = 180° − 38° − 123.27° = 18.73°</div>
+              <div class="formula">This is the ambiguous SSA case, so there are two possible triangles.</div>
+            </div>
+
+            <p class="ref-link">
+              Reference:
+              <a href="https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:trig/x9e81a4f98389efdf:solving-general-triangles/a/laws-of-sines-and-cosines-review"
+                target="_blank">
+                Khan Academy – Laws of Sines and Cosines Review
+              </a>
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+</body>
+
+</html>
